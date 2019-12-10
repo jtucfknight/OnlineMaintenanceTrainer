@@ -1,0 +1,86 @@
+/*
+By default some browsers insert margins and padding so you
+want to explicitly clear the margin/padding
+*/
+body{
+	background:#06141a;
+	position:relative;
+	top:75px;
+	width:100%;
+	margin: 0 auto 0 auto;
+	display: -webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+}
+/*This box creates a border around all the div boxes*/
+#main{
+	max-width:960px;
+	margin:0 auto;/*need for centering in ie 11*/
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-flex:1;/*1 allows to be flexible*/
+}
+#the_header{
+	/*background: black;*/
+	text-align:center;
+}
+#the_section{
+	background-image: url("bg.png" );
+	/*background: #FFFBCC;*/
+	width:960px;
+	height:600px;
+	box-shadow: 0px 10px 50px black;
+}
+#the_form{
+/*	border: 1px solid red;*/
+	background-image: url("badge.png" );
+	background-repeat:no-repeat;
+	width:188px;
+	height:432px;
+	margin:auto;/*trbl*/
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-pack:center;
+	-webkit-filter: drop-shadow(0px 0px 30px black);
+	filter: drop-shadow(0px 0px 30px black);
+	}
+#btn{
+	color: #fff;
+	background: #B2A28F;
+	position:absolute;
+	width:50px;
+	height:25px;
+	top:138px;
+	left:48px;
+	margin:auto auto;
+}
+#btn:hover{
+	background-color:#8FB299;
+}
+#info{
+	/*border: 1px solid red;*/
+	display: box;
+	position:absolute;
+	margin:0px 0px 0px 20px;
+	bottom:215px;
+	width:145px;
+	height: 135px;
+}
+input{
+	display:block;
+	background-color:#B2A28F;
+    width: 140px;
+	padding: 5px 0px 5px 0px;
+}
+input::-webkit-input-placeholder {
+	color: white;
+	opacity:.5;
+}
+input:hover{
+	background-color:#8FB299;
+}
+#the_footer{
+	background:black;
+	color:white;
+	text-align:center;
+}

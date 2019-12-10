@@ -1,0 +1,54 @@
+article, aside, figure, figcaption, footer, hgroup, header, 
+section, nav {
+   display: block;
+}
+
+/* Set the default page element styles */
+body * {
+	color:white;
+   font-family: Verdana, Geneva, sans-serif;
+   font-weight: inherit;
+   line-height: 1.2em;
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+}
+/* Body Styles */
+body {
+	background:#06141a;
+	position:relative;
+	top:75px;
+	width:100%;
+	margin: 0 auto 0 auto;
+	display: -webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+}
+#main{
+	border: solid red 1px;
+	width:960px;
+	display:-webkit-box;
+	margin: auto auto;
+	display: -webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-orient:vertical;
+	-webkit-box-flex:1;/*1 allows to be flexible*/
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	text-align: center;
+}
+/* Header styles */
+header {
+   float: left;
+   width: 100%;
+   background: url(logo.png) bottom right repeat;
+   -o-background-size: contain;
+   -moz-background-size: contain;
+   -webkit-background-size: contain;
+   background-size: auto 90%;
+   background-color: rgb(255, 191, 165);
+   border-bottom: 1px solid red;
+}

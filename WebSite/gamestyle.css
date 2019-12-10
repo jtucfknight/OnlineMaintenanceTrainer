@@ -1,0 +1,31 @@
+body{
+	background:#06141a;
+}
+#welcome {
+	/*border: solid red 1px;*/
+	
+	width:960px;
+	display:-webkit-box;
+	margin: auto auto;
+	display: -webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-orient:vertical;
+	-webkit-box-flex:1;/*1 allows to be flexible*/
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	text-align: center;
+}
+h4 {
+	color: white;
+	position:absolute;
+	top:35px;
+	width:100%;
+	margin: 0 auto 0 auto;
+	display: -webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+}
+
